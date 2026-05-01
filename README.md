@@ -22,7 +22,7 @@
 
 **DevOps**
 
-<img src="https://skillicons.dev/icons?i=docker,githubactions,aws,cloudflare,nginx" alt="Docker, GitHub Actions" />&nbsp;
+<img src="https://skillicons.dev/icons?i=docker,githubactions" alt="Docker, GitHub Actions" />&nbsp;
 
 **Work environment**
 
