@@ -18,7 +18,7 @@
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,redismongodb" alt="MySQL, PostgreSQL, Redis, MongoDB" />&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb" alt="MySQL, PostgreSQL, Redis, MongoDB" />&nbsp;
 
 **DevOps**
 
