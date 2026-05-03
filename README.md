@@ -54,6 +54,4 @@
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&icon=1&color=0)](https://visitcount.itsvg.in)
-
-
+[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&label=Profile%20Views&color=0&icon=1)](https://visitcount.itsvg.in)
