@@ -6,7 +6,7 @@
 
 ## Connect with me
 
-[![Email](https://img.shields.io/badge/Email-muhammadabdullahkhan%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
+[![Email](https://img.shields.io/badge/Email-khan.abdullah%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Abdullah%20Khan-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/muhammad-abdullah-khan)
 [![LeetCode](https://img.shields.io/badge/LeetCode-muhammad--abdullah--khan-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/muhammad-abdullah-khan)
 
