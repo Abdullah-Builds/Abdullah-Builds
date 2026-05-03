@@ -43,7 +43,7 @@
 <img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds)
-
+[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&label=Profile%20Views&icon=1)](https://visitcount.itsvg.in)
 
 
 ![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
@@ -51,4 +51,3 @@
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
-[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&label=Profile%20Views&color=0&icon=1)](https://visitcount.itsvg.in)
