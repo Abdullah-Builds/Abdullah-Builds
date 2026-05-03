@@ -12,7 +12,7 @@
  > Building things one commit at a time.
 
  Open to collaboration and new opportunities.
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abdullah) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khan.abdullah9753@gmail.com) 
 ## Connect with me
 
 [![Email](https://img.shields.io/badge/Email-khan.abdullah%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
@@ -46,4 +46,14 @@
 <img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds)
+
+
+
+![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=Abdullah-Builds&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&icon=1&color=0)](https://visitcount.itsvg.in)
+
 
