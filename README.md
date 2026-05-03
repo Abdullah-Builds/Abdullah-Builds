@@ -15,6 +15,9 @@
 [![Email](https://img.shields.io/badge/Email-khan.abdullah%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Abdullah%20Khan-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/muhammad-abdullah-khan)
 [![LeetCode](https://img.shields.io/badge/LeetCode-muhammad--abdullah--khan-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/MuhammadAbdullahkhan99880)
+
+---
+
 ## 🛠️ Tech stack
 
 **Languages**
@@ -42,9 +45,12 @@
 
 <img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
+---
+
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds)
 [![](https://komarev.com/ghpvc/?username=Abdullah-Builds&label=Profile%20Views&icon=1)](https://visitcount.itsvg.in)
 
+---
 
 ![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Abdullah-Builds&theme=dark&hide_border=false)<br/>
