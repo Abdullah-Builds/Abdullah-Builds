@@ -31,7 +31,7 @@
 
 **Work environment**
 
-<img src="https://skillicons.dev/icons?i=neovim,git" alt="Neovim, Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
+<img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds)
 
