@@ -5,10 +5,7 @@
  <abc>
   <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
   <br> I'm Muhammad Abdullah Khan, Backend Developer  :computer:<br>
-  <br>
-  
-
-> Building things one commit at a time.
+  > Building things one commit at a time.
 
  Open to collaboration and new opportunities.
 
@@ -17,8 +14,7 @@
 [![Email](https://img.shields.io/badge/Email-khan.abdullah%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Abdullah%20Khan-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/muhammad-abdullah-khan)
 [![LeetCode](https://img.shields.io/badge/LeetCode-muhammad--abdullah--khan-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/muhammad-abdullah-khan)
-
-
+  <br>
     <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
  </abc>
 </h2> 
