@@ -10,7 +10,7 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,bash,c++,c" alt="Python, JavaScript, TypeScript, Bash, C++, C" />&nbsp;<img src="https://img.shields.io/badge/SQL-4479A1?style=plastic&logo=mysql&logoColor=white" height="48" alt="SQL" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,bash,cpp,c" alt="Python, JavaScript, TypeScript, Bash, C++, C" />&nbsp;<img src="https://img.shields.io/badge/SQL-4479A1?style=plastic&logo=mysql&logoColor=white" height="48" alt="SQL" />
 
 **Frontend**
 
