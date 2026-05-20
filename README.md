@@ -48,9 +48,8 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 <img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ---
-
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds)
-[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&label=Profile%20Views&icon=1)](https://visitcount.itsvg.in)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds.Abdullah-Builds)
+[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&repo=Abdullah-Builds&label=Repo%20Views&color=0e75b6&style=flat)](https://github.com/Abdullah-Builds/Abdullah-Builds)
 
 ---
 
