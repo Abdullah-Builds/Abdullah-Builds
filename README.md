@@ -23,9 +23,10 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 ## 🛠️ Tech stack
 
 **Languages**
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,cpp,c,go" alt="Python, JavaScript, TypeScript , C++, C, GO />&nbsp;<img src="https://img.shields.io/badge/SQL-4479A1?style=plastic&logo=mysql&logoColor=white" height="48" alt="SQL" />
-
+<p>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,cpp,c,go" alt="Python, JavaScript, TypeScript, C++, C, Go" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=plastic&logo=mysql&logoColor=white" height="48" alt="SQL" />
+</p>
 **Frontend**
 
 <img src="https://skillicons.dev/icons?i=html,css,tailwind,react,nextjs" alt="HTML, CSS, Tailwind, React, Next.js" />
