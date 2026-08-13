@@ -57,7 +57,6 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 
 ![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=Abdullah-Builds&theme=dark&hide_border=false)<br/>
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdullah-Builds&layout=compact&langs_count=20&theme=dark&hide_border=false)
 
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
