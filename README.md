@@ -50,6 +50,19 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 <img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ---
+
+##  Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdullah-Builds&bg_color=020617&color=38bdf8&line=2563eb&point=67e8f9&area=true&hide_border=true" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abdullah-Builds/Abdullah-Builds/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph" />
+</p>
+
+---
+
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds.Abdullah-Builds)
 [![](https://komarev.com/ghpvc/?username=Abdullah-Builds&repo=Abdullah-Builds&label=Repo%20Views&color=0e75b6&style=flat)](https://github.com/Abdullah-Builds/Abdullah-Builds)
 
@@ -63,7 +76,7 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 ---
 
 
----
+
 
 ## Let's Connect
 
