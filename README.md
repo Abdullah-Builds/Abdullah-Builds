@@ -61,3 +61,29 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
+
+
+---
+
+## Let's Connect
+
+<p align="center">
+  <a href="https://github.com/Abdullah-Builds">
+    <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdullah-khan-718a25299">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:khan.abdullah9753@email.com">
+    <img src="https://img.shields.io/badge/Email-Say%20Hello-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <b>Backend • Go • AI Systems • Open Source • Continuous Learning</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,45:1d4ed8,75:0f172a,100:020617&height=130&section=footer" width="100%" />
+</p>
+
