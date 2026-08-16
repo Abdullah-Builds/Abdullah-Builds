@@ -27,9 +27,10 @@
   <img src="https://img.shields.io/github/stars/Abdullah-Builds?label=STARS&style=for-the-badge&color=f59e0b" />
 </p>
 
+---
 
- ---
-  <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
+<br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
+
 ## `> whoami`
 
 <img align="right" width="360" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
@@ -55,10 +56,12 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 <br clear="right"/>
 
+---
 
 ## 🛠️ Tech stack
 
 **Languages**
+
 <p>
   <img src="https://skillicons.dev/icons?i=python,js,ts,cpp,c,go" alt="Python, JavaScript, TypeScript, C++, C, Go" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=plastic&logo=mysql&logoColor=white" height="48" alt="SQL" />
@@ -70,52 +73,49 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb" alt="MySQL, PostgreSQL, Redis, MongoDB" />&nbsp;
+<img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb" alt="MySQL, PostgreSQL, Redis, MongoDB" /> 
 
 **DevOps**
 
-<img src="https://skillicons.dev/icons?i=docker,githubactions" alt="Docker, GitHub Actions" />&nbsp;
-
+<img src="https://skillicons.dev/icons?i=docker,githubactions" alt="Docker, GitHub Actions" /> 
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=express,nodejs" alt="Express, Node js" />&nbsp;
+<img src="https://skillicons.dev/icons?i=express,nodejs" alt="Express, Node js" /> 
 
 **Work environment**
 
-<img src="https://skillicons.dev/icons?i=git" alt=" Git" />&nbsp;<img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" />&nbsp;<img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
+<img src="https://skillicons.dev/icons?i=git" alt=" Git" /> <img src="https://img.shields.io/badge/Codex-000000?style=plastic&logo=openai&logoColor=white" height="48" alt="Codex" /> <img src="https://img.shields.io/badge/Claude%20Code-D97706?style=plastic&logo=anthropic&logoColor=white" height="48" alt="Claude Code" />
 
 ---
 
-##  Contribution Graph
+## Contribution Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdullah-Builds&bg_color=020617&color=38bdf8&line=2563eb&point=67e8f9&area=true&hide_border=true" width="100%" />
 </p>
 
-
-
----
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds.Abdullah-Builds)
-[![](https://komarev.com/ghpvc/?username=Abdullah-Builds&repo=Abdullah-Builds&label=Repo%20Views&color=0e75b6&style=flat)](https://github.com/Abdullah-Builds/Abdullah-Builds)
-
----
-
-![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Abdullah-Builds&theme=dark&hide_border=false)<br/>
-
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
 ---
 
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-view.svg"
+    src="./profile-3d-contrib/profile-night-green.svg"
     width="100%"
     alt="3D GitHub contribution calendar"
   />
 </p>
+
+---
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Abdullah-Builds.Abdullah-Builds)
+[![](https://komarev.com/ghpvc/?username=Abdullah-Builds\&repo=Abdullah-Builds\&label=Repo%20Views\&color=0e75b6\&style=flat)](https://github.com/Abdullah-Builds/Abdullah-Builds)
+
+---
+
+![](https://github-readme-stats.shion.dev/api?username=Abdullah-Builds\&theme=dark\&hide_border=false\&include_all_commits=true\&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=Abdullah-Builds\&theme=dark\&hide_border=false)<br/>
+
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Abdullah-Builds\&theme=dark\&hide_border=false\&include_all_commits=true\&count_private=true\&layout=compact)
 
 ---
 
@@ -140,4 +140,3 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,45:1d4ed8,75:0f172a,100:020617&height=130&section=footer" width="100%" />
 </p>
-
