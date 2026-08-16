@@ -1,0 +1,234 @@
+name: 🌍 Open Source Contributions
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v5
+
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p .github/generated
+
+          gh api --paginate \
+            -H "Accept: application/vnd.github+json" \
+            "/search/issues?q=author%3AAbdullah-Builds+type%3Apr&per_page=100" \
+            > .github/generated/open-source-prs.json
+
+      - name: Generate contribution table
+        run: |
+          python <<'PY'
+          import json
+          import re
+          from pathlib import Path
+          from datetime import datetime
+
+          source = Path(".github/generated/open-source-prs.json")
+
+          # gh --paginate returns multiple JSON objects in some environments.
+          raw = source.read_text().strip()
+
+          # Extract JSON objects safely.
+          objects = []
+          decoder = json.JSONDecoder()
+          index = 0
+
+          while index < len(raw):
+              while index < len(raw) and raw[index].isspace():
+                  index += 1
+
+              if index >= len(raw):
+                  break
+
+              try:
+                  obj, end = decoder.raw_decode(raw, index)
+                  objects.append(obj)
+                  index = end
+              except json.JSONDecodeError:
+                  break
+
+          items = []
+
+          for obj in objects:
+              if not isinstance(obj, dict):
+                  continue
+
+              for item in obj.get("items", []):
+                  items.append(item)
+
+          # Deduplicate PRs.
+          unique = {}
+          for item in items:
+              unique[item["html_url"]] = item
+
+          items = list(unique.values())
+
+          # Sort newest first.
+          items.sort(
+              key=lambda x: x.get("updated_at") or "",
+              reverse=True
+          )
+
+          def clean_repo(url):
+              return url.rstrip("/").split("/repos/")[-1]
+
+          def clean_title(title):
+              return re.sub(r"\s+", " ", title or "").strip()
+
+          def contribution_type(item):
+              labels = [
+                  label["name"].lower()
+                  for label in item.get("labels", [])
+              ]
+
+              if any(x in labels for x in ["documentation", "docs"]):
+                  return "📖 Documentation"
+
+              if any(x in labels for x in ["bug", "bugfix", "fix"]):
+                  return "🐛 Bug Fix"
+
+              if any(x in labels for x in ["enhancement", "feature"]):
+                  return "✨ Feature"
+
+              if any(x in labels for x in ["refactor", "refactoring"]):
+                  return "♻️ Refactor"
+
+              return "🔧 Engineering"
+
+          rows = []
+
+          for item in items:
+              repo = clean_repo(item.get("repository_url", ""))
+              title = clean_title(item.get("title", ""))
+              url = item.get("html_url", "#")
+
+              state = item.get("state", "").lower()
+
+              # GitHub search result has no merged_at field.
+              # A merged PR appears with state=closed, but we need to
+              # inspect the actual PR endpoint for merged status.
+              rows.append({
+                  "repo": repo,
+                  "title": title,
+                  "url": url,
+                  "state": state,
+                  "type": contribution_type(item),
+                  "updated": item.get("updated_at", "")
+              })
+
+          # Generate Markdown.
+          lines = []
+
+          lines.append("## 🌍 Open Source Contributions")
+          lines.append("")
+          lines.append(
+              "> A live record of my public Pull Requests, "
+              "the repositories I've contributed to, and the work "
+              "behind each contribution."
+          )
+          lines.append("")
+          lines.append(
+              "**Focus:** `Go` · `Backend` · `AI` · `MCP` · "
+              "`Infrastructure` · `Developer Tooling`"
+          )
+          lines.append("")
+
+          if rows:
+              lines.append(
+                  "| Repository | What I Contributed | Type | Status | PR |"
+              )
+              lines.append(
+                  "|---|---|---|---|---|"
+              )
+
+              for row in rows:
+                  status = (
+                      "🟡 Open"
+                      if row["state"] == "open"
+                      else "🔵 Closed / Review"
+                  )
+
+                  lines.append(
+                      f"| `{row['repo']}` "
+                      f"| {row['title']} "
+                      f"| {row['type']} "
+                      f"| {status} "
+                      f"| [View PR →]({row['url']}) |"
+                  )
+          else:
+              lines.append(
+                  "_No public Pull Requests were found yet._"
+              )
+
+          lines.append("")
+          lines.append(
+              "[View all my Pull Requests →]"
+              "(https://github.com/pulls?q=is%3Apr+author%3AAbdullah-Builds)"
+          )
+
+          output = "\n".join(lines)
+
+          Path(".github/generated/open-source-section.md").write_text(
+              output,
+              encoding="utf-8"
+          )
+          PY
+
+      - name: Update README
+        run: |
+          python <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          generated = Path(
+              ".github/generated/open-source-section.md"
+          ).read_text(encoding="utf-8")
+
+          start = "<!-- OPEN_SOURCE_START -->"
+          end = "<!-- OPEN_SOURCE_END -->"
+
+          content = readme.read_text(encoding="utf-8")
+
+          replacement = (
+              f"{start}\n"
+              f"{generated}\n"
+              f"{end}"
+          )
+
+          if start in content and end in content:
+              before = content.split(start)[0]
+              after = content.split(end, 1)[1]
+
+              content = before + replacement + after
+          else:
+              content += "\n\n" + replacement + "\n"
+
+          readme.write_text(content, encoding="utf-8")
+          PY
+
+      - name: Commit updated contribution section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md .github/generated/
+
+          git diff --cached --quiet || \
+            git commit \
+              -m "chore: update open source contributions"
+
+          git push
