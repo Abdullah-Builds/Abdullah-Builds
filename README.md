@@ -6,9 +6,35 @@
     <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
  </abc>
 </h2> 
- > Building things one commit at a time.
 
- Open to collaboration and new opportunities.
+ ---
+
+## `> whoami`
+
+<img align="right" width="360" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
+
+```text
+Muhammad Abdullah Khan
+
+Backend Developer
+        │
+        ├── API Engineering
+        ├── Go & TypeScript
+        ├── AI / Agent Systems
+        ├── Databases & Caching
+        ├── Distributed Systems
+        └── Open Source
+```
+
+I build backend systems, APIs, developer tools, and experiments around **Go, TypeScript, Python, AI agents, MCP, databases, and infrastructure**.
+
+My GitHub is a mix of production-oriented projects, learning repositories, systems experiments, and open-source exploration.
+
+> Build → Ship → Break → Learn → Improve
+
+<br clear="right"/>
+
+---
 
 ## Connect with me
 
