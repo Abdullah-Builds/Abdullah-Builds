@@ -109,8 +109,15 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 ---
 
+<p align="center">
+  <img
+    src="./profile-3d-contrib/profile-night-view.svg"
+    width="100%"
+    alt="3D GitHub contribution calendar"
+  />
+</p>
 
-
+---
 
 ## Let's Connect
 
