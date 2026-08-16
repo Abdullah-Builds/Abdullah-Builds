@@ -1,0 +1,228 @@
+name: 🌍 Open Source Contribution Dashboard
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+  issues: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate Open Source Dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p assets
+
+          python <<'PY'
+          import json
+          import os
+          import subprocess
+          from html import escape
+
+          username = "Abdullah-Builds"
+          token = os.environ["GITHUB_TOKEN"]
+
+          def gh_api(query):
+              result = subprocess.run(
+                  [
+                      "curl",
+                      "-sS",
+                      "-H", f"Authorization: Bearer {token}",
+                      "-H", "Accept: application/vnd.github+json",
+                      f"https://api.github.com/search/{query}"
+                  ],
+                  capture_output=True,
+                  text=True,
+                  check=True,
+              )
+              return json.loads(result.stdout)
+
+          merged = gh_api(
+              f"issues?q=author%3A{username}+is%3Apr+is%3Amerged"
+          )
+
+          open_prs = gh_api(
+              f"issues?q=author%3A{username}+is%3Apr+is%3Aopen"
+          )
+
+          total_merged = merged.get("total_count", 0)
+          total_open = open_prs.get("total_count", 0)
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg"
+              width="1100"
+              height="420"
+              viewBox="0 0 1100 420">
+
+            <defs>
+              <linearGradient id="bg" x1="0" x2="1">
+                <stop offset="0%" stop-color="#020617"/>
+                <stop offset="50%" stop-color="#0f172a"/>
+                <stop offset="100%" stop-color="#1e3a8a"/>
+              </linearGradient>
+
+              <linearGradient id="accent" x1="0" x2="1">
+                <stop offset="0%" stop-color="#06b6d4"/>
+                <stop offset="100%" stop-color="#2563eb"/>
+              </linearGradient>
+            </defs>
+
+            <rect width="1100" height="420" rx="28" fill="url(#bg)"/>
+
+            <text x="55" y="65"
+                  fill="#ffffff"
+                  font-family="Arial, sans-serif"
+                  font-size="30"
+                  font-weight="700">
+              Open Source Contribution Dashboard
+            </text>
+
+            <text x="55" y="98"
+                  fill="#94a3b8"
+                  font-family="Arial, sans-serif"
+                  font-size="16">
+              Abdullah-Builds • GitHub Open Source Activity
+            </text>
+
+            <rect x="55" y="135" width="300" height="190"
+                  rx="20" fill="#0f172a" stroke="#1e293b"/>
+
+            <rect x="400" y="135" width="300" height="190"
+                  rx="20" fill="#0f172a" stroke="#1e293b"/>
+
+            <rect x="745" y="135" width="300" height="190"
+                  rx="20" fill="#0f172a" stroke="#1e293b"/>
+
+            <circle cx="110" cy="190" r="26" fill="#16a34a"/>
+
+            <text x="110" y="198"
+                  text-anchor="middle"
+                  fill="#ffffff"
+                  font-size="24"
+                  font-family="Arial">
+              ✓
+            </text>
+
+            <text x="160" y="182"
+                  fill="#94a3b8"
+                  font-family="Arial"
+                  font-size="15">
+              MERGED PRs
+            </text>
+
+            <text x="160" y="225"
+                  fill="#ffffff"
+                  font-family="Arial"
+                  font-size="44"
+                  font-weight="700">
+              {total_merged}
+            </text>
+
+            <text x="160" y="252"
+                  fill="#64748b"
+                  font-family="Arial"
+                  font-size="13">
+              Contributions merged upstream
+            </text>
+
+            <circle cx="455" cy="190" r="26" fill="#eab308"/>
+
+            <text x="455" y="198"
+                  text-anchor="middle"
+                  fill="#ffffff"
+                  font-size="22"
+                  font-family="Arial">
+              ↗
+            </text>
+
+            <text x="505" y="182"
+                  fill="#94a3b8"
+                  font-family="Arial"
+                  font-size="15">
+              OPEN PRs
+            </text>
+
+            <text x="505" y="225"
+                  fill="#ffffff"
+                  font-family="Arial"
+                  font-size="44"
+                  font-weight="700">
+              {total_open}
+            </text>
+
+            <text x="505" y="252"
+                  fill="#64748b"
+                  font-family="Arial"
+                  font-size="13">
+              Currently under review
+            </text>
+
+            <circle cx="800" cy="190" r="26" fill="url(#accent)"/>
+
+            <text x="800" y="198"
+                  text-anchor="middle"
+                  fill="#ffffff"
+                  font-size="21"
+                  font-family="Arial">
+              &lt;/&gt;
+            </text>
+
+            <text x="850" y="182"
+                  fill="#94a3b8"
+                  font-family="Arial"
+                  font-size="15">
+              FOCUS
+            </text>
+
+            <text x="850" y="220"
+                  fill="#ffffff"
+                  font-family="Arial"
+                  font-size="20"
+                  font-weight="700">
+              Go • AI • MCP
+            </text>
+
+            <text x="850" y="250"
+                  fill="#64748b"
+                  font-family="Arial"
+                  font-size="13">
+              Backend • Infrastructure
+            </text>
+
+            <rect x="55" y="350" width="990" height="3" rx="2"
+                  fill="url(#accent)"/>
+
+            <text x="55" y="385"
+                  fill="#94a3b8"
+                  font-family="Arial"
+                  font-size="14">
+              Building in public • Contributing upstream • Learning from maintainers
+            </text>
+
+          </svg>'''
+
+          with open("assets/open-source-dashboard.svg", "w", encoding="utf-8") as f:
+              f.write(svg)
+          PY
+
+      - name: Commit dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/open-source-dashboard.svg
+
+          git diff --cached --quiet || \
+            git commit -m "chore: update open source dashboard"
+
+          git push
