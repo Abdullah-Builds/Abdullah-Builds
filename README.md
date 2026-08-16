@@ -1,14 +1,35 @@
-<h2 align="left">
- <abc>
-  <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
-  <br> I'm Muhammad Abdullah Khan, Backend Developer  :computer:<br>
-  <br>
-    <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
- </abc>
-</h2> 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,35:0f172a,70:1d4ed8,100:06b6d4&height=240&section=header&text=Muhammad%20Abdullah%20Khan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Go%20%E2%80%A2%20AI%20Systems%20%E2%80%A2%20Open%20Source&descAlignY=58&descSize=17" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=800&lines=Backend+Developer;Building+with+Go+%7C+TypeScript+%7C+Python;Exploring+AI+Agents+%26+MCP;Distributed+Systems+%7C+APIs+%7C+Infrastructure;Building+things+one+commit+at+a+time." />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Abdullah-Builds">
+    <img src="https://img.shields.io/badge/GitHub-Abdullah--Builds-111827?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:khan.abdullah9753@email.com">
+    <img src="https://img.shields.io/badge/Email-Contact-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdullah-khan-718a25299">
+    <img src="https://img.shields.io/badge/LinkedIn-Abdullah%20Khan-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/MuhammadAbdullahkhan99880">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-f59e0b?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abdullah-Builds&label=PROFILE%20VIEWS&color=0ea5e9&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/Abdullah-Builds?label=FOLLOWERS&style=for-the-badge&color=2563eb" />
+  <img src="https://img.shields.io/github/stars/Abdullah-Builds?label=STARS&style=for-the-badge&color=f59e0b" />
+</p>
+
 
  ---
-
+  <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
 ## `> whoami`
 
 <img align="right" width="360" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
@@ -34,17 +55,6 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 <br clear="right"/>
 
----
-
-## Connect with me
-
-[![Email](https://img.shields.io/badge/Email-khan.abdullah%40email.com-blue?style=flat-square&logo=gmail)](mailto:khan.abdullah9753@email.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Abdullah%20Khan-0A66C2?style=flat-square&logo=linkedin)](
-https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_content=profile&utm_medium=member_android
-)
-[![LeetCode](https://img.shields.io/badge/LeetCode-muhammad--abdullah--khan-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/MuhammadAbdullahkhan99880)
-
----
 
 ## 🛠️ Tech stack
 
@@ -83,9 +93,7 @@ https://www.linkedin.com/in/abdullah-khan-718a25299?utm_source=share_via&utm_con
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdullah-Builds&bg_color=020617&color=38bdf8&line=2563eb&point=67e8f9&area=true&hide_border=true" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abdullah-Builds/Abdullah-Builds/output/github-contribution-grid-snake-dark.svg" alt="Contribution graph" />
-</p>
+
 
 ---
 
