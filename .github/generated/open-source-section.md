@@ -6,6 +6,7 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `tektronix/tm_devices` | feat:Resolved | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `oras-project/oras-go` | feat: Issue Resolved # 1305 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/oras-project/oras-go/pull/1311) |
 | `agentclash/agentclash` | feat : Fix 1238 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1243) |
 | `agentclash/agentclash` | feat : Resolve Issue # 1242 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1244) |
