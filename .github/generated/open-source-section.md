@@ -6,11 +6,11 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
-| `Atharva-Kanherkar/anime-vocab-coach` | fix(onboarding): open sign-up on install, add uninstall survey | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/Atharva-Kanherkar/anime-vocab-coach/pull/100) |
+| `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
+| `Atharva-Kanherkar/anime-vocab-coach` | fix(onboarding): open sign-up on install, add uninstall survey | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Atharva-Kanherkar/anime-vocab-coach/pull/100) |
 | `anthropics/claude-code-action` | fix: encode branch names in GitHub links | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1713) |
 | `agentclash/agentclash` | docs: cross-link the zero-API-key dev profile and setup tiers | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1260) |
 | `Abdullah-Builds/Javascript_` | Add files via upload | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Abdullah-Builds/Javascript_/pull/2) |
-| `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `oras-project/oras-go` | feat: Issue Resolved # 1305 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/oras-project/oras-go/pull/1311) |
 | `agentclash/agentclash` | feat : Fix 1238 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1243) |
 | `agentclash/agentclash` | feat : Resolve Issue # 1242 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1244) |
