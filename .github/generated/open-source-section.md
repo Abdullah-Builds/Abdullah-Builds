@@ -6,9 +6,12 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
+| `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
+| `anthropics/claude-code-action` | chore: remove orphaned dead code from v1.0 entrypoint consolidation | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1727) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
+| `anthropics/claude-code-action` | fix: encode branch names in GitHub links | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-code-action/pull/1713) |
 | `Atharva-Kanherkar/anime-vocab-coach` | fix(onboarding): open sign-up on install, add uninstall survey | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Atharva-Kanherkar/anime-vocab-coach/pull/100) |
-| `anthropics/claude-code-action` | fix: encode branch names in GitHub links | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1713) |
 | `agentclash/agentclash` | docs: cross-link the zero-API-key dev profile and setup tiers | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1260) |
 | `Abdullah-Builds/Javascript_` | Add files via upload | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Abdullah-Builds/Javascript_/pull/2) |
 | `oras-project/oras-go` | feat: Issue Resolved # 1305 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/oras-project/oras-go/pull/1311) |
