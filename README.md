@@ -128,6 +128,7 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `anthropics/claude-plugins-official` | receipts: query all clones when cross-referencing commits | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-plugins-official/pull/5696) |
 | `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
