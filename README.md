@@ -128,10 +128,11 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
-| `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
+| `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
+| `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
+| `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
-| `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
 | `anthropics/claude-code-action` | chore: remove orphaned dead code from v1.0 entrypoint consolidation | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1727) |
 | `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `anthropics/claude-plugins-official` | receipts: query all clones when cross-referencing commits | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-plugins-official/pull/5696) |
