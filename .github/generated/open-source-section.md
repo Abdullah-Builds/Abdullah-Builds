@@ -6,8 +6,9 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
-| `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
 | `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
+| `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
+| `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
 | `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
