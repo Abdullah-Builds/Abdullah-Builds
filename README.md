@@ -128,6 +128,8 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
+| `google/artemis` | fix(video): pin output framerate on rendered analyzer clips | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/53) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
