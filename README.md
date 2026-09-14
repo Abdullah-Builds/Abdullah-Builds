@@ -128,6 +128,7 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
 | `google/artemis` | fix(video): pin output framerate on rendered analyzer clips | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/53) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
