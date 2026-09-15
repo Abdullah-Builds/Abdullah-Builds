@@ -6,13 +6,13 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
 | `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
 | `google/artemis` | fix(video): pin output framerate on rendered analyzer clips | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/53) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
-| `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
 | `anthropics/claude-code-action` | chore: remove orphaned dead code from v1.0 entrypoint consolidation | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1727) |
 | `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
