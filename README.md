@@ -128,6 +128,7 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
 | `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
@@ -136,7 +137,6 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
 | `anthropics/claude-code-action` | chore: remove orphaned dead code from v1.0 entrypoint consolidation | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1727) |
-| `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
 | `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `anthropics/claude-plugins-official` | receipts: query all clones when cross-referencing commits | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-plugins-official/pull/5696) |
