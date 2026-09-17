@@ -128,9 +128,9 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
-| `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
 | `google/artemis` | fix(video): pin output framerate on rendered analyzer clips | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/53) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
