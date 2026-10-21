@@ -6,6 +6,7 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | ✨ Feature | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `agentvivekkumar/dontbemichael` | Link webhook tasks to their mail approval and sent Message-ID | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/169) |
@@ -20,7 +21,6 @@
 | `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
 | `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `anthropics/claude-plugins-official` | receipts: query all clones when cross-referencing commits | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-plugins-official/pull/5696) |
-| `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `anthropics/claude-code-action` | fix(prepare): tell the agent when PR config paths were restored from base | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1743) |
 | `anthropics/claude-code-action` | fix: encode branch names in GitHub links | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-code-action/pull/1713) |
 | `Atharva-Kanherkar/anime-vocab-coach` | fix(onboarding): open sign-up on install, add uninstall survey | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Atharva-Kanherkar/anime-vocab-coach/pull/100) |
