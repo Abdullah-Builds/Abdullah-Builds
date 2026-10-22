@@ -128,14 +128,14 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
-| `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | ✨ Feature | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
+| `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
+| `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | ✨ Feature | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `agentvivekkumar/dontbemichael` | Link webhook tasks to their mail approval and sent Message-ID | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/169) |
 | `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
 | `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `kubernetes/kubernetes` | scheduler: fix flaky sleep/timeout race in api_dispatcher call queue … | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/kubernetes/kubernetes/pull/141837) |
-| `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
 | `google/artemis` | fix(video): pin output framerate on rendered analyzer clips | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/53) |
 | `google-gemini/gemini-cli` | fix(core): route read_file content through FileSystemService | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/google-gemini/gemini-cli/pull/29110) |
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
