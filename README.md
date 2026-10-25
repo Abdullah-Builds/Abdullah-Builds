@@ -128,9 +128,9 @@ My GitHub is a mix of production-oriented projects, learning repositories, syste
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
 | `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
-| `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | ✨ Feature | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `agentvivekkumar/dontbemichael` | Link webhook tasks to their mail approval and sent Message-ID | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/169) |
 | `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
