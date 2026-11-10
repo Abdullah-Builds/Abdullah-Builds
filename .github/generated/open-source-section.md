@@ -6,6 +6,8 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `agentclash/agentclash` | feat : Resolve Issue # 1242 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1244) |
+| `agentclash/agentclash` | feat : Fix 1238 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1243) |
 | `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
@@ -27,8 +29,6 @@
 | `agentclash/agentclash` | docs: cross-link the zero-API-key dev profile and setup tiers | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1260) |
 | `Abdullah-Builds/Javascript_` | Add files via upload | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Abdullah-Builds/Javascript_/pull/2) |
 | `oras-project/oras-go` | feat: Issue Resolved # 1305 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/oras-project/oras-go/pull/1311) |
-| `agentclash/agentclash` | feat : Fix 1238 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1243) |
-| `agentclash/agentclash` | feat : Resolve Issue # 1242 | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentclash/agentclash/pull/1244) |
 | `mark3labs/mcp-go` | Fix #943: refuse unsupported subscribe requests | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/mark3labs/mcp-go/pull/946) |
 | `agentclash/agentclash` | feat : Fixed Issue 1187 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1228) |
 | `Abdullah-Builds/AI-Incident-Response-Alert-Router` | Enhance README with technology badges and documentation | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Abdullah-Builds/AI-Incident-Response-Alert-Router/pull/1) |
