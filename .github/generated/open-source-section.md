@@ -6,12 +6,14 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
+| `anthropics/claude-code-action` | fix(prepare): tell the agent when PR config paths were restored from base | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1743) |
+| `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `agentclash/agentclash` | feat : Resolve Issue # 1242 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1244) |
 | `agentclash/agentclash` | feat : Fix 1238 | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1243) |
 | `kubernetes/kubernetes` | cleanup: remove debug logs from TestValidateNodeDeclaredFeatures | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/kubernetes/kubernetes/pull/141875) |
 | `tektronix/tm_devices` | fix(tsp): batch load_script() writes to respect max write length | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/tektronix/tm_devices/pull/623) |
 | `google/artemis` | Fix/adb shell injection | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/56) |
-| `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
 | `NVIDIA-NeMo/Gym` | fix(sandbox): implement canonical task environment resolution | ✨ Feature | 🟡 Open | [View PR →](https://github.com/NVIDIA-NeMo/Gym/pull/2772) |
 | `agentvivekkumar/dontbemichael` | Link webhook tasks to their mail approval and sent Message-ID | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/169) |
 | `google/artemis` | Fix/script notifier | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/google/artemis/pull/100) |
@@ -21,9 +23,7 @@
 | `openeverest/openeverest` | fix(server): strip any admission webhook prefix via regex | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/openeverest/openeverest/pull/3050) |
 | `anthropics/claude-code-action` | chore: remove orphaned dead code from v1.0 entrypoint consolidation | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1727) |
 | `openeverest/openeverest.github.io` | Add ClickHouse /for/ landing page (fixes #143) | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/openeverest/openeverest.github.io/pull/150) |
-| `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
 | `anthropics/claude-plugins-official` | receipts: query all clones when cross-referencing commits | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-plugins-official/pull/5696) |
-| `anthropics/claude-code-action` | fix(prepare): tell the agent when PR config paths were restored from base | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1743) |
 | `anthropics/claude-code-action` | fix: encode branch names in GitHub links | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/anthropics/claude-code-action/pull/1713) |
 | `Atharva-Kanherkar/anime-vocab-coach` | fix(onboarding): open sign-up on install, add uninstall survey | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/Atharva-Kanherkar/anime-vocab-coach/pull/100) |
 | `agentclash/agentclash` | docs: cross-link the zero-API-key dev profile and setup tiers | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentclash/agentclash/pull/1260) |
