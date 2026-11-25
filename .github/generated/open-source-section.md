@@ -6,6 +6,8 @@
 
 | Repository | What I Contributed | Type | Status | PR |
 |---|---|---|---|---|
+| `amh1k/montecarlo` | Feat/mpi openmp hybrid parallelism | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/amh1k/montecarlo/pull/14) |
+| `amh1k/montecarlo` | Implement MPI trial distribution | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/amh1k/montecarlo/pull/13) |
 | `agentvivekkumar/dontbemichael` | feat(quickbooks): add Changes need my OK level with one-time grants | 🔧 Engineering | 🔵 Closed / Review | [View PR →](https://github.com/agentvivekkumar/dontbemichael/pull/487) |
 | `anthropics/claude-code-action` | fix(prepare): tell the agent when PR config paths were restored from base | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1743) |
 | `anthropics/claude-code-action` | Fix/setup branch rethrow error | 🔧 Engineering | 🟡 Open | [View PR →](https://github.com/anthropics/claude-code-action/pull/1748) |
